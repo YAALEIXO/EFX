@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+
+.topo1{position: fixed; max-width: 100%;}
+
+body, ul, p{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jura', sans-serif;
+    
+
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-size: 0.8rem;
+}
+
+a:hover{ 
+    
+
+    /*background-color:rgb(255, 255, 255 , .2 );*/
+    border-bottom: solid rgb(255, 255, 255); border-radius: 1px;
+    color: #d9e1fc;
+    font-weight: bold;
+    
+
+
+
+}
+
+
+.banner{ max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    
+    max-height: 100%;
+    position: relative;
+  
+}
+
+.faixa{ 
+    
+  
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); 
+    margin: 0px;
+  
+    
+
+
+}
+
+.faixa >p{
+
+ 
+    text-align: center;
+    padding: 1vw;
+    font-size: 5vw;
+    justify-items: center;
+    padding: none;
+   
+
+
+
+ }
+
+
+
+
+
+
+.texto{ 
+    padding: 25px;
+    text-align: justify;
+    font-size: 1.4rem;}
+
+
+ 
+#header{
+    
+    box-sizing: border-box;
+    height: 100px;
+    padding: 1rem;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color:#2540A1;
+    
+
+}
+
+#menu{display: flex; list-style: none; gap:0.5rem;}
+
+
+#btn-menu{display: none;}
+
+
+.img1{ width: 35vw;
+    max-width: 100%;
+    border-radius: 10px;
+    /* padding-bottom: 25px; */
+    
+    
+
+
+}
+
+
+
+.img2{ width: 100%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+    
+    
+
+
+}
+
+
+.contrucao{ width: 100%;
+            height: 400px;
+           
+}
+
+
+.const2{width: 100%;
+        height: 400px;
+        
+
+
+}
+
+
+.bnn{ 
+    display: flex;
+align-items: center;
+
+
+    
+    width: 100%;
+    height: 400px;
+
+    
+   
+    
+    max-width: 100vw no repeat;
+    height: 400PX;
+
+    
+    background-image: url(../img/agricultural-silos-building-exterior.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+   
+    
+}
+
+
+
+
+
+@media (max-width:600px){ 
+
+
+    #btn-mobile{display: block;}
+
+    #menu{ display: none;}
+    .faixa{ font-size: 1rem;}
+
+
+
+
+    
+}
+
+@media (max-width:415px){ 
+
+body{
+    max-width: 100vw;
+    width: 100%;}
+    #btn-mobile{display: block;}
+
+    #menu{ display: none;}
+
+    
+
+
+
+
+    
+}
+
+
+
+
